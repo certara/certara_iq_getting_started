@@ -7,6 +7,7 @@ platforms = ["linux-aarch64", "linux-64"]
 python = { version = "3.14.*" }
 
 [pypi-dependencies]
+abm = ">=2.1.4b4, <3"
 ipykernel = "==7.*"
 certaraiq = "==2.*"
 plotnine = "==0.15.*"
