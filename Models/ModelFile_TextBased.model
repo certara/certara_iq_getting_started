@@ -1,6 +1,6 @@
 # In-vivo 2 compartment model with both micro and macro constants
 #
-# Goal: This model introduces new hires to the structure and
+# Goal: This model introduces new users to the structure and
 # syntax of reaction models to be run on the QSP notebook.
 #
 # Features: This model will simulate a drug in-vivo with: 
