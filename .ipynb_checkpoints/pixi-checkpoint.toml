@@ -1,0 +1,15 @@
+[workspace]
+channels = ["conda-forge"]
+name = "getting_started"
+platforms = ["linux-aarch64", "linux-64"]
+
+[dependencies]
+python = { version = "3.14.*" }
+
+[pypi-dependencies]
+ipykernel = "==7.*"
+certaraiq = "==2.*"
+plotnine = "==0.15.*"
+
+[system-requirements]
+libc = "2.39"
