@@ -24,7 +24,7 @@ All of the files in this example project are introduced in one demo or walk thro
     * This model format can encode the same exact reaction types as the GUI models above
     * This example is for those users that are more comfortable coding in a text based environment
     * There is no video training for this example
-    * See Models/Build&Simulate_TextModel_complete.ipynb for a notebook based walk through of how to build this type of model
+    * See Models/TextModel_complete.ipynb for a notebook based walk through of how to build this type of model
 
 ## Data Files
 
@@ -58,13 +58,13 @@ All of the files in this example project are introduced in one demo or walk thro
    * This folder contains three csv tables
      1. DoseTable_filled.csv:
         * A completed dose table to define and set up simulations for the example text based reaction model
-        * This table is used in Models/Build&Simulate_TextModel_complete.ipynb
+        * This table is used in Models/TextModel_complete.ipynb
      2. ParameterTable.csv:
         * A completed parameter table to define the parameterization for the example text based reaction model
-        * This table is used in Models/Build&Simulate_TextModel_complete.ipynb
+        * This table is used in Models/TextModel_complete.ipynb
      3. SimulationTable_filled.csv:
         * A completed simulation table to select which of the defined simulations are run for the example text based reaction model
-        * This table is used in Models/Build&Simulate_TextModel_complete.ipynb
+        * This table is used in Models/TextModel_complete.ipynb
 
 ## IQ Analyze Notebooks
 
@@ -88,7 +88,7 @@ All of the files in this example project are introduced in one demo or walk thro
        * Parameter scan
        * One at a time sensitivity (including tornado plot generation)
        * Optimization
-7. Models/Build&Simulate_TextModel_complete.ipynb
+7. Models/TextModel_complete.ipynb
    * This notebook walks through the building and running of a text based reaction model
    * The simulation portion of this notebook is identical to the options covered in the previous Analyze notebooks
    * The new material convered in this notebook is related to desinging and coding a text based reaction model
