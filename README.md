@@ -81,14 +81,20 @@ All of the files in this example project are introduced in one demo or walk thro
 5. Dependency_completed.ipynb
    * This notebook demonstates the use of notebook dependencies in IQ Analyze
    * This notebook reads the "Analyze_Optimization_completed.ipynb" notebook as a dependency and imports the results of that notebook
-6. Analyze_Workflow_Demo
+6. Analyze_Workflow_Demo.ipynb
    * This notebook is a combined demo of several features within Analyze
    * This notebook contains an example of:
        * Simulation
        * Parameter scan
        * One at a time sensitivity (including tornado plot generation)
        * Optimization
-7. Models/TextModel_complete.ipynb
+7. Plotting_1_Basics.ipynb
+   * This notebook demonstrates basic plotting using `plotnine`, a plotting package similar to R's `ggplot`
+   * It covers line and point graphs, customizing axes and labels, faceting (subplots), visual customization, and saving figures
+8. Plotting_2_Examples.ipynb
+   * This notebook provides examples of plots built using `plotnine`
+   * It includes a tornado plot, an observed versus predicted plot, a heat map, and text labels
+9.  Models/TextModel_complete.ipynb
    * This notebook walks through the building and running of a text based reaction model
    * The simulation portion of this notebook is identical to the options covered in the previous Analyze notebooks
    * The new material convered in this notebook is related to desinging and coding a text based reaction model
